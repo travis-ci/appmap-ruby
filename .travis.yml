@@ -30,3 +30,5 @@ deploy:
     on:
       branch: master
       condition: "$TRAVIS_RUBY_VERSION = 3.0"
+before_install:
+  - gem install rubygems-update -v 3.4.22
